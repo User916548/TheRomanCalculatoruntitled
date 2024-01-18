@@ -1,7 +1,10 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        int a = 12, b = 58;
-        System.out.println(a + b);
-
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter number One");
+        String numberOne = s.nextLine();
+        System.out.println("You entered: " + numberOne);
     }
 }
